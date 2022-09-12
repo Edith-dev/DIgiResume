@@ -1,0 +1,137 @@
+* {
+    font-family: Readex Pro;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+}
+
+html,body {
+    background: #131415;
+    color: #dad5d5;
+    line-height: 1.7em;
+}
+
+h1,h2 {
+    color: #fff;
+}
+
+#main-container {
+    max-width: 700px;
+    margin: 0px auto;
+    padding: 1em;
+}
+
+#img-social {
+  display: flex;
+  align-items: center;
+  gap: 4em;
+  padding: 2em 0;
+}
+
+#img-social img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#img-social .email {
+    color: #fff;
+}
+
+#social-info h1 {
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #33d4ff ;
+}
+
+.social-handles {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 1em; 
+    flex-wrap: wrap; 
+}
+
+.social-handles a {
+    font-weight: 300;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+
+.social-handles a:hover {
+    font-weight: 100;
+    color: #08b9f9;
+}
+
+#qualifications {
+    margin-top: 2em;
+}
+
+#qualifications h2 {
+    margin-top: 50px;
+}
+
+#qualifications ul {
+    list-style: none;
+    margin-left: 2em;
+    margin: 3em 0;
+}
+
+
+#qualifications ul li {
+    line-height: 2.0rem;
+    
+}
+
+#qualifications ul span  {
+    color: #33d4ff;
+}
+
+.line-break {
+    border: #2f3031 0.5px solid;
+}
+
+#wrapper-experience h2 {
+    margin: 1em 0.5em;
+}
+
+#acquisition-center {
+    padding: 2.0em;
+}
+    
+#acquisition-center p {
+    margin-top: 0.7em;
+}
+
+#acquisition-center ul li {
+    margin: 1em 2em;
+} 
+
+#forex-academy {
+    padding: 2.0em;
+}
+
+#forex-academy p {
+    margin-top: 0.7em;
+}
+
+#forex-academy ul li {
+    margin: 1em 2em;
+}
+
+#code-camp {
+    padding: 2em;
+}
+
+#code-camp p {
+    margin-top: 0.7em;
+}
+
+#code-camp ul li {
+    margin: 1em 2em;
+}
